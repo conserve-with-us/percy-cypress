@@ -11,7 +11,7 @@ jobs:
       - name: Build
         run: yarn build
       - name: Percy Test
-        uses: percy/exec-action@master
+        uses: percy/exec-action@v0.2.0
         with:
           command: "node run-tests.js"
         env:
